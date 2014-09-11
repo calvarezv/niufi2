@@ -3,8 +3,8 @@ class ApiController < ApplicationController
 	require 'rubygems'
 	require 'json'
 
-	SECRET = 'foobar'
-	VALIDATOR = 'asdasdasd'
+	SECRET = 'elmediosecreto'
+	VALIDATOR = '623d3e898319f40b138a27a6d7db411f9c78d286'
 
 	def test
 		@events = Array.new 
