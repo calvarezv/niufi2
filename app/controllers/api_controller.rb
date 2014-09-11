@@ -3,8 +3,8 @@ class ApiController < ApplicationController
 	require 'rubygems'
 	require 'json'
 
-	SECRET = ''
-	VALIDATOR = ''
+	SECRET = 'foobar'
+	VALIDATOR = 'asdasdasd'
 
 	def test
 		map = JSON.parse(params[:data])
@@ -16,8 +16,6 @@ class ApiController < ApplicationController
 		map['probing'].each do |c|
 			logger.info "client #{c['client_mac']} seen on ap #{c['ap_mac']} with rssi #{c['rssi']} at #{c['last_seen']}"
 		end
-		
-		render :text => 'jojo'
 	end
 
 end

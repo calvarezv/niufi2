@@ -583,3 +583,163 @@ MissingSourceFile (no such file to load -- json):
 Rendered rescues/_trace (79.6ms)
 Rendered rescues/_request_and_response (1.3ms)
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:10:54) [GET]
+
+TypeError (can't convert nil into String):
+  json (1.8.1) lib/json/common.rb:155:in `initialize'
+  json (1.8.1) lib/json/common.rb:155:in `new'
+  json (1.8.1) lib/json/common.rb:155:in `parse'
+  app/controllers/api_controller.rb:10:in `test'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (76.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:11:13) [GET]
+
+TypeError (can't convert nil into String):
+  json (1.8.1) lib/json/common.rb:155:in `initialize'
+  json (1.8.1) lib/json/common.rb:155:in `new'
+  json (1.8.1) lib/json/common.rb:155:in `parse'
+  app/controllers/api_controller.rb:10:in `test'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:11:14) [GET]
+
+TypeError (can't convert nil into String):
+  json (1.8.1) lib/json/common.rb:155:in `initialize'
+  json (1.8.1) lib/json/common.rb:155:in `new'
+  json (1.8.1) lib/json/common.rb:155:in `parse'
+  app/controllers/api_controller.rb:10:in `test'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (88.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:14:58) [POST]
+  Parameters: {"data"=>"{\"secret\":\"foobar\",\"probing\":[{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:77:2c:f4:48 20:36:04.396 UTC 2013\",\"rssi\":\"27\"},{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:37:1d:f4:49 20:36:04.396 UTC 2013\",\"rssi\":\"22\"}]}"}
+got post with bad secret: 
+Rendering api/test
+Completed in 25ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:15:19) [POST]
+  Parameters: {"data"=>"{\"secret\":\"foobar\",\"probing\":[{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:77:2c:f4:48 20:36:04.396 UTC 2013\",\"rssi\":\"27\"},{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:37:1d:f4:49 20:36:04.396 UTC 2013\",\"rssi\":\"22\"}]}"}
+client 8c:58:77:2c:f4:48 20:36:04.396 UTC 2013 seen on ap 00:18:0a:36:b6:2e with rssi 27 at 
+client 8c:58:37:1d:f4:49 20:36:04.396 UTC 2013 seen on ap 00:18:0a:36:b6:2e with rssi 22 at 
+Rendering api/test
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:15:25) [POST]
+  Parameters: {"data"=>"{\"secret\":\"foobar\",\"probing\":[{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:77:2c:f4:48 20:36:04.396 UTC 2013\",\"rssi\":\"27\"},{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:37:1d:f4:49 20:36:04.396 UTC 2013\",\"rssi\":\"22\"}]}"}
+client 8c:58:77:2c:f4:48 20:36:04.396 UTC 2013 seen on ap 00:18:0a:36:b6:2e with rssi 27 at 
+client 8c:58:37:1d:f4:49 20:36:04.396 UTC 2013 seen on ap 00:18:0a:36:b6:2e with rssi 22 at 
+Rendering api/test
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:16:14) [POST]
+  Parameters: {"data"=>"{\"secret\":\"foobar\",\"probing\":[{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:77:2c:f4:48 20:36:04.396 UTC 2013\",\"rssi\":\"27\"},{\"ap_mac\":\"00:18:0a:36:b6:2e\",\"client_mac\":\"8c:58:37:1d:f4:49 20:36:04.396 UTC 2013\",\"rssi\":\"22\"}]}"}
+got post with bad secret: foobars
+Rendering api/test
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:18:44) [GET]
+
+NoMethodError (undefined method `get' for #<ApiController:0x7fe142c764a8>):
+  app/controllers/api_controller.rb:10:in `test'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApiController#test (for 127.0.0.1 at 2014-09-11 05:19:04) [GET]
+
+TypeError (can't convert nil into String):
+  json (1.8.1) lib/json/common.rb:155:in `initialize'
+  json (1.8.1) lib/json/common.rb:155:in `new'
+  json (1.8.1) lib/json/common.rb:155:in `parse'
+  app/controllers/api_controller.rb:10:in `test'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/claudio/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
