@@ -32,5 +32,5 @@ config/secrets.yml
 bower.json
 
 # others
-/config/databases.yml
+/config/database.yml
 
