@@ -9,7 +9,8 @@ class ApiController < ApplicationController
 	def test
 		@events = Array.new 
 		if request.get?
-			render :text => VALIDATOR
+			# render :text => VALIDATOR
+			return VALIDATOR
 		elsif request.post?
 			map = JSON.parse(params[:data])
 			if map['secret'] != SECRET
