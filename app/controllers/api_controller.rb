@@ -23,6 +23,7 @@ class ApiController < ApplicationController
 			logger.info "client #{c['client_mac']} seen on ap #{c['ap_mac']} with rssi #{c['rssi']} at #{c['last_seen']}"
 			@events << "client #{c['client_mac']} seen on ap #{c['ap_mac']} with rssi #{c['rssi']} at #{c['last_seen']}"
 		end
+		""
 	end
 
 end
