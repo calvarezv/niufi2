@@ -7,7 +7,7 @@ class ApiController < ApplicationController
 	VALIDATOR = '623d3e898319f40b138a27a6d7db411f9c78d286'
 
 	def testConnection
-		render :text => VALIDATOR
+		@validator = VALIDATOR
 	end
 
 	def receiveEvents
@@ -23,7 +23,6 @@ class ApiController < ApplicationController
 			logger.info "client #{c['client_mac']} seen on ap #{c['ap_mac']} with rssi #{c['rssi']} at #{c['last_seen']}"
 			@events << "client #{c['client_mac']} seen on ap #{c['ap_mac']} with rssi #{c['rssi']} at #{c['last_seen']}"
 		end
-		""
 	end
 
 end

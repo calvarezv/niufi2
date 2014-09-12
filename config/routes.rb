@@ -1,6 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
 
-  map.root :controller => "api", :action => "testConnection"
+  # map.root :controller => "api", :action => "testConnection"
   map.connect 'api/event', :controller => "api", :action => "testConnection", :conditions => { :method => :get }
   map.connect 'api/event', :controller => "api", :action => "receiveEvents", :conditions => { :method => :post }
 
